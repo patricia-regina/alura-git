@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+        <title>Challenge Encriptador</title>
+</head>
+
+<body>
+    <header class="logoAlura">
+        <a href="https://www.alura.com.br/" title="Mergulhe em Tecnologia">
+            <img id= "imagemLogo" src="/imagens/logoAlura.png" alt="Logo da Alura" />
+        </a>
+    </header>
+
+    <main>
+        <section>
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto aqui..."></textarea>
+            <div class="informacaoBotao">
+                <h6>Apenas letras minusculas e sem acento</h6>
+            </div>
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>    
+                <button class="btn-descriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="saida">
+            <!--Remove o position: fixed da class mensagem-->
+            <textarea class="mensagem" cols="20" rows="10"></textarea>
+            <!--coloca uma class no botão ou no CSS muda .btn-copiar para "#btn-copiar"-->
+            <button class="btn-copiar">Copiar</button>
+                  
+           
+
+        </section>
+    </main>
+    <div>
+        <footer>  
+            
+            <a href="https://github.com/patricia-regina/" title="Meu Git - Em evolução...">
+            <img id= "imagemGit" src="imagens/GitR.png" width="50" height="55" margin-right="50px" alt="Logo Git Hub" />
+            </a>
+
+            <a href="https://www.linkedin.com/in/patr%C3%ADcia-regina-t%C3%B4rres-b4a188201/" title="Meu Linkedin">
+                <img id= "imagemLinkedin" src="imagens/LinkedinR.png" width="50" height="50" alt="Logo Linkedin" />
+            </a>
+                  
+            <p id="copyright">&copy; Copyright Challenge Alura 20223 - Patrícia Regina</p>
+        </footer>
+    </div> 
+        
+    <script src="script.js"></script>
+</body>
+</html>
